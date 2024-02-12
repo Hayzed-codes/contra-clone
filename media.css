@@ -1,0 +1,377 @@
+/* Navbar */
+@media screen and (max-width: 1280px) {
+  .header {
+    padding: 34px 25px;
+    height: 101px;
+  }
+
+  .logo h2 {
+    font-size: 22px;
+  }
+
+  .navBtn {
+    font-size: 16px;
+    margin-left: 2rem;
+  }
+
+  .btn {
+    width: 150px;
+    height: 47px;
+  }
+
+  .mainNav .mainNavList .navBtn a:nth-child(3) {
+    width: 100px;
+    height: 47px;
+  }
+
+  .mainNav .mainNavList {
+    font-size: 16px;
+    gap: 5px;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .card-two.image-wrapper-one {
+    margin-top: 160px;
+  }
+
+
+} 
+
+
+@media screen and (max-width: 1190px) {
+    /* ACTION */
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mt-minus {
+        margin-top: -2em;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+  .fig-con .btn-wrapper button {
+    font-size: 20px;
+  }
+
+  /* TALENT LOW SECTION  */
+  .card > div .paragraph {
+    font-size: 30px;
+  }
+
+  .cardOne {
+    padding: 33px;
+    
+  }
+
+  .cardOne h3 {
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  .cardOne h3 span {
+    font-size: 20px;
+  }
+
+  .cardOne p {
+    margin-top: 20px;
+    margin-bottom: 5rem;
+  }
+
+  .title {
+    font-size:35px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+  .mainNav .mainNavList {
+    font-size: 14px;
+  }
+
+  /* Card Row */
+
+  
+}
+
+@media screen and (max-width: 991px) {
+  .logo {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .mainItem,
+  .mainNav .mainNavList .navBtn a:nth-child(1),
+  .mainNav .mainNavList .navBtn a:nth-child(3) {
+    display: none;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    font-size: 30px;
+  }
+
+  .btn-mobile-nav > [name="close"] {
+    display: none;
+  }
+
+  /* Hero Secton */
+  .heroText h1 {
+    font-size: 50px;
+  }
+
+  .heroText p {
+    font-size: 20px;
+  }
+
+  .heroFrels .toggleSwitch {
+    width: 39px;
+    height: 20px;
+  }
+
+  .heroFrels .toggleSwitch::after {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* FIGMA BUTTION SECTION */
+
+  .fig-con .btn-wrapper button {
+    font-size: 16px;
+    padding: 0.8rem;
+    text-wrap: nowrap;
+  }
+
+  /* TALENT SECTION */
+
+  .talentHead {
+    font-size: 46px;
+    margin-bottom: 120px;
+  }
+
+  .talentHead p span {
+    font-size: 33px;
+  }
+
+  .talentImageCard {
+    margin-bottom: 152px;
+  }
+
+  .talentImageCard .container {
+    width: 300px;
+    height: 400px;
+  }
+
+  .talentImageCard .container .inCard {
+    font-size: 30px;
+  }
+
+  .book {
+    width: 300px;
+    height: 250px;
+    top: 150px;
+  }
+
+  .keyBoard,
+  .phone {
+    width: 300px;
+    height: 200px;
+    top: 190px;
+  }
+
+  .micro {
+    width: 204px;
+    bottom: 10px;
+}
+
+.lFrame {
+    width: 250px;
+}
+
+/* TALENT WRAPPER SECTION  */
+
+  .talent-wrapper {
+    width: 80%;
+    align-self: center;
+    justify-content: center;
+    margin-left: 6rem;
+}
+
+.talent-top-wrapper {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t--content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    display: flex;
+    padding: 3rem 4.5rem;
+    text-align: center;
+}
+
+.t--content p{
+    font-size: 60px;
+}
+
+.t--content > p span {
+    font-size: 60px;
+}
+
+.t--content > button {
+    width: 50%;
+}
+
+.talent-low-wrapper {
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.cardRow {
+    gap: 20px;
+    padding: 1em 3em;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+  }
+
+  .cardOne h3 {
+    font-size: 45px;
+  }
+
+  .cardOne h3 span {
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .card-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .card-two .image-wrapper-one {
+    align-items: center;
+    justify-content: center;
+    order: -1;
+    margin-top: 50px;
+    padding-top: 2px;
+  }
+
+  .card-two > .titleCon > .direction {
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 5rem;
+  }
+
+  .title {
+    margin-top: -40px;
+    font-size: 25px;
+  }
+
+  .direction p  {
+    font-size: 20px;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+    padding: 0 2.5rem 120px 2.5rem;
+ }
+
+ .team {
+    margin: 5rem 0;
+ }
+
+ .btn-wrapperOne {
+    margin: 3rem 0 5rem 0;
+ }
+
+ footer {
+    background-image: none;
+    padding: 30px;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .logo h2,
+  .mainNav .mainNavList .navBtn a:nth-child(2) {
+    display: none;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  .heroText h1 {
+    font-size: 40px;
+    padding: 0.3em;
+  }
+
+  :is(.heroFrelsOne, .heroFrelsTwo) {
+    font-size: 15px;
+  }
+
+  /* FIGMA BUTTON SECTION */
+
+  .fig-con {
+    font-size: 14px;
+  }
+
+  .fig-con .btn-wrapper button {
+    font-size: 13px;
+    padding: 0.6rem;
+  }
+
+  /* TALENT WRAPPER  */
+
+  .talent-wrapper {
+      width: 100%;
+      align-items: center;
+      justify-self: center;
+      margin-left: 0 auto;
+    }
+    
+    .talent-low-wrapper {
+      width: 100%;
+    }
+    
+.cardOne h3 {
+    font-size: 20px;
+  }
+
+  .cardOne h3 span {
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  .cardOne p {
+    margin-bottom: 3rem;
+  }
+
+  /* ACTION  */
+
+  .lower-wrapper {
+    padding: 2rem 1rem;
+  }
+
+  .lower-wrapper .content {
+    font-size: 16px;
+    
+  }
+
+  .footer-columns ul a {
+    font-size: 14px;
+  }
+
+}
